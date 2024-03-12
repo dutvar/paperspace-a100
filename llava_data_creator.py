@@ -17,11 +17,11 @@ args = parser.parse_args()
 
 input_path = args.input_path
 if not input_path.endswith("/"):
-    PATH = input_path + "/"
+    input_path = input_path + "/"
 
 output_path = args.output_path
 if not output_path.endswith("/"):
-    PATH = output_path + "/"
+    output_path = output_path + "/"
 
 val_samples = args.val_samples
 
